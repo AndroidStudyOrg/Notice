@@ -31,7 +31,7 @@ fun main() {
             printer.println("Content-Type: text/html\r\n")
 
             // body 부분
-            printer.println("<h1>Hello World</h1><h2>byebye</h2>")
+            printer.println("{\"message\": \"Hello, World!\"}")
             printer.println("\r\n")
             printer.flush()
             printer.close()
